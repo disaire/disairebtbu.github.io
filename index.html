@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<style>
+  .a1 {
+    background-image: url(./平安校园服务大厅-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #b1 {
+    padding-left: 36.5%;
+    padding-top: 53.5%;
+  }
+
+  #b2 {
+    padding-left: 45%;
+    padding-top: 2%;
+  }
+
+
+  #b3 {
+    padding-left: 36.5%;
+    padding-top: 2%;
+  }
+</style>
+
+<body class="a1">
+
+
+  <div id="b1">
+    <div id="app">
+      <el-button @click="visible = true">查看详情</el-button>
+      <el-dialog :visible.sync="visible" title="户籍办理">
+        <p>户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情户籍办理详情</p>
+        <div>
+          <img style="width: 100%;" src="./平安校园服务大厅-04.jpg" alt="">
+        </div>
+      </el-dialog>
+    </div>
+  </div>
+
+
+  <div id="b2">
+    <div id="app2">
+      <el-button @click="visible = true">查看详情</el-button>
+      <el-dialog :visible.sync="visible" title="大型活动报批">
+        <p>大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情大型活动报批详情</p>
+      </el-dialog>
+    </div>
+  </div>
+
+
+  <div id="b3">
+    <div id="app3">
+      <el-button @click="visible = true">查看详情</el-button>
+      <el-dialog :visible.sync="visible" title="业务咨询类型">
+        <p>业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下业务咨询类型如下</p>
+      </el-dialog>
+    </div>
+  </div>
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+  new Vue({
+    el: '#app',
+    data: function () {
+      return { visible: false }
+    }
+  })
+</script>
+
+<script>
+  new Vue({
+    el: '#app2',
+    data: function () {
+      return { visible: false }
+    }
+  })
+</script>
+
+<script>
+  new Vue({
+    el: '#app3',
+    data: function () {
+      return { visible: false }
+    }
+  })
+</script>
+
+</html>
